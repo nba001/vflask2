@@ -1,0 +1,357 @@
+{% extends "base.html" %}
+{% block content %}
+
+  <header class="header-1">
+    <div class="page-header section-height-50 relative"
+      style="background-image: url('static/assets/img/curved-images/curved.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 text-center mx-auto">
+            <h1 class="text-white pt-5">
+              Our Products
+            </h1>
+            <p class="lead text-white mt-3">
+              Even non-listed products are of high importance to us, and we strive to meet our customer's needs and
+              expectations. Please <a href="{{ url_for('contact') }}" class="text-info">send us</a> your specifications.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="position-absolute w-100 z-index-1 bottom-0">
+        <svg class="waves" viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+          </defs>
+          <g class="moving-waves">
+            <use xlink:href="#gentle-wave" x="48" y="-1" fill="rgba(255,255,255,0.40"></use>
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.35)"></use>
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.25)"></use>
+            <use xlink:href="#gentle-wave" x="48" y="8" fill="rgba(255,255,255,0.20)"></use>
+            <use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(255,255,255,0.15)"></use>
+            <use xlink:href="#gentle-wave" x="48" y="16" fill="rgba(255,255,255,0.95"></use>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </header>
+  <section class="py-lg-7">
+    <div class="container">
+      <div class="row">
+        <div class="row pt-lg-6">
+          <div class="col-lg-3">
+            <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
+              <h3>Human diseases</h3>
+              <h6 class="text-secondary font-weight-normal pe-3">The early diagnosis of infectious diseases is critical
+                for therapy and infection control measures</h6>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">Cytomegalovirus (CMV) IgG</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">Cytomegalovirus (CMV) IgM</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">Measles Virus IgM</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">Bordetella pertussis IgG</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">Phospholipid-Screen-GM</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">HIV genotyping</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">COVID-19</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-lg-6">
+          <div class="col-lg-3">
+            <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
+              <h3>Veterinary diseases</h3>
+              <h6 class="text-secondary font-weight-normal pe-3">Easy-to-use and reliable test kits, based on
+                high-quality reagents,</h6>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">Bovine Viral Diarrhea Virus</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">Foot-and-mouth Disease Virus</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">Canine Parvo Virus Antigen Test</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">Canine Distemper Virus Antigen Test</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">Canine Parvo/Coronavirus Ag Combo test</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">FIVAb/FeL V Ag Combo Test</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">CaniV-4 Test</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="card card-profile overflow-hidden my-2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                      <a href="javascript:;">
+                        <div class="p-3 pe-0">
+                          <img class="w-100 border-radius-md" src="https://via.placeholder.com/150?text=Diagnomed">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                      <div class="card-body">
+                        <h6 class="mb-0 text-info">Classical Swine Fever Virus</h6>
+                        <p class="mb-0">more info about the product</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+{% endblock %}
