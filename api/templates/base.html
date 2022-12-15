@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="static/assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="static/assets/img/favicon.png">
-  <link rel="canonical" href="https://appseed.us/ui-kit/soft-ui-design-system"/>
-  
+
   <title>
     Diagnomed - {% block title %}{% endblock %}
   </title>
@@ -23,15 +22,34 @@
   {% block stylesheets %}{% endblock stylesheets %}
 
 </head>
-<body class="index-page">
-    {% include "navigation.html" %}
-    {% block content %}{% endblock content %}
-    
-  
-    {% include "footer.html" %}
 
-  <!-- Specific JS goes HERE --> 
+<body class="index-page">
+  {% include "navigation.html" %}
+  {% block content %}{% endblock content %}
+
+  {% include "footer.html" %}
+
+  <!-- Specific JS goes HERE -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+          $('#back-to-top').fadeIn();
+        } else {
+          $('#back-to-top').fadeOut();
+        }
+      });
+      // scroll body to 0px on click
+      $('#back-to-top').click(function () {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 400);
+        return false;
+      });
+    });
+  </script>
   {% block javascripts %}{% endblock javascripts %}
 
 </body>
+
 </html>

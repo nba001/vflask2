@@ -1,0 +1,133 @@
+{
+	"Human disease diagnosis": {
+		"id": "human",
+		"Desc": "The early diagnosis of infectious diseases is critical for therapy and infection control measures",
+		"Items": [
+			"Influenza virus A IgG or IgM",
+			"Cytomegalovirus (CMV) IgG or IgM",
+			"Respiratory syncytial virus (RSV) IgG or IgM",
+			"Dengue IgG or IgM",
+			"Measles Virus IgM",
+			"Bordetella pertussis IgG",
+			"Torch IgG or IgM ELISA",
+			"HBV quantitative PCR kit",
+			"HCV Genotype qualitative PCR Kit",
+			"HCV quantitative PCR Kit",
+			"HIV quantitative PCR kit",
+			"HIV genotyping",
+			"HPV 16 / 18 PCR kit",
+			"SARS-CoV-2 PCR kit",
+			"Chlamydia pneumoniae IgG or IgM",
+			"Clostridium tetani IgG",
+			"Corynebacterium diphtheriae IgG",
+			"Mycoplasma pneumoniae IgG or IgM",
+			"Legionella pneumophila IgG or IgM",
+			"H. Pylori IgG or IgM ELISA",
+			"Toxoplasma gondii IgG or IgM ELISA",
+			"Malaria",
+			"Mycobacterium tuberculosis"
+		]
+	},
+	"Clinical chemistry of human disease": {
+		"id": "clinical",
+		"Desc": "Clinical chemistry is a crucial component in the early detection, treatment and management of human diseases and health disorders",
+		"Items": [
+			"Cardiolipin IgG and/IgM",
+			"Phospholipid- Screen",
+			"Beta2 Glycoprotein",
+			"Adenosine deaminase (ADA)",
+			"Bilirubin direct",
+			"Cholinesterase",
+			"Creatinine",
+			"Ferritin"
+		]
+	},
+	"Veterinary disease diagnosis": {
+		"id": "veterinary",
+		"Desc": "Easy-to-use and reliable test kits, based on high-quality reagents",
+		"Items": [
+			"Bovine Viral Diarrhea Virus",
+			"Foot-and-mouth Disease Virus",
+			"Canine Parvo Virus Antigen Test",
+			"Canine Distemper Virus Antigen Test",
+			"Canine Parvo/Coronavirus Ag Combo test",
+			"FIVAb/FeL V Ag Combo Test",
+			"CaniV-4 Test",
+			"Classical Swine Fever Virus",
+			"Bordetella bronchiseptica",
+			"MERS-CoV",
+			"PCMV",
+			"Porcine Parvovirus"
+		]
+	},
+	"Poultry diseases diagnosis": {
+		"id": "poultry",
+		"Desc": "Poultry diagnostic tests provide proven solutions for flock health and productivity with a comprehensive line of highly accurate ELISA tests",
+		"Items": [
+			"Avian Leukosis Virus Antigen ELISA",
+			"Chicken Astrovirus Group B ELISA",
+			"Reticuloendotheliosis Virus ELISA",
+			"Big Liver and Spleen Disease ELISA",
+			"Avian Encephalomyelitis ELISA",
+			"Infectious Bursal Disease Virus ELISA",
+			"Egg Drop Syndrome Virus ELISA"
+		]
+	},
+	"Food and Feed diagnostics": {
+		"id": "food",
+		"Desc": "Food & Feed Diagnostics High quality test kits",
+		"Items": [
+			"C. burnetii PCR kit",
+			"Bactotype Mastitis Screening PCR kit",
+			"Trichinella ELISA kit",
+			"Yersinia ELISA kit"
+		]
+	},
+	"Biomedical Research Reagents": {
+		"id": "biomedical",
+		"Desc": "Focuses on high quality reagents/biochemicals to support academic and biotech research",
+		"Items": [
+			"Cell lines",
+			"Cell culture media (e.g. DMEM/F12), FCS and supplements",
+			"DNA/RNA isolation and purification kit",
+			"PCR/RT-PCR reagents",
+			"Polymerases",
+			"Master mixes",
+			"Nucleotides",
+			"Inhibitors (e.g., RNAase inhibitor)",
+			"Western blot",
+			"Primary and secondary antibodies",
+			"Antigens",
+			"Immunofluorescence staining",
+			"DNA ladder",
+			"Protein ladder"
+		]
+	},
+	"Biomedical Research Consumables and Equipment": {
+		"id": "equipment",
+		"Desc": "Product offerings can help with biomedical research and clinical diagnostics",
+		"Items": [
+			"Western blot apparatus",
+			"PCR apparatus",
+			"Fin tips",
+			"Pipette channels",
+			"ELISA",
+			"Cryovials",
+			"Thermal Cycler",
+			"Analytical Balance"
+		]
+	},
+	"Medical Devices": {
+		"id": "devices",
+		"Desc": "Comprehensive offering of clinician-preference, cost-efficient products, and physician-preferred items",
+		"Items": [
+			"ICU Ventilator",
+			"Patient monitor",
+			"Ultrasound",
+			"CT Scanner",
+			"ELISA analyzer",
+			"Biochemistry analyzer",
+			"Hematology analyzer (3 Parts and 5 parts)"
+		]
+	}
+}

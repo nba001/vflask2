@@ -14123,6 +14123,12 @@ pre[class*="language-"] {
     background-size: 1.5rem 1.5rem;
     position: relative;
   }
-
+  
+  .back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
 
 /*# sourceMappingURL=soft-design-system.css.map */
