@@ -3,7 +3,8 @@ from os.path import dirname, abspath, join
 from flask_mail import Mail, Message
 import json
 import os
-from forms import ContactForm
+from flask_wtf import FlaskForm
+from wtforms import EmailField, StringField, TextAreaField, SubmitField, validators, DecimalField
 
 
 dir = dirname(abspath(__file__))
@@ -72,3 +73,14 @@ def getProducts():
     with open(join(dir, '..', 'data', 'products.json'), 'r') as file:
         data = json.loads(file.read())
     return data
+
+
+class ContactForm(FlaskForm):
+    name = StringField("Name", [validators.DataRequired(
+        "Name is required"), validators.Length(min=3, max=25)])
+    email = EmailField(
+        "Email", [validators.DataRequired("Email is required"), validators.Length(min=6, max=40)])
+    phone = DecimalField("Phone", [validators.Optional()])
+    message = TextAreaField(
+        "Message", [validators.DataRequired("Message is required")])
+    submit = SubmitField("Send")
