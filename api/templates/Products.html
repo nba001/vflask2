@@ -42,7 +42,8 @@
         <ul class="nav flex-column p-3 position-sticky top-5">
           {% for key, values in products.items() %}
           <li class="nav-item">
-            <a class="nav-link btn bg-gradient-light {% if loop.index == 1 %}active{% endif %}" href='#{{values["id"]}}'>
+            <a class="nav-link btn bg-gradient-light {% if loop.index == 1 %}active{% endif %}"
+              href='#{{values["id"]}}'>
               {{key}}
             </a>
           </li>
@@ -53,23 +54,25 @@
         <div class="card mb-5">
           <div class="card-body">
             {% for key, values in products.items() %}
-            {% if loop.index != 1 %}<hr />{% endif %}
+            {% if loop.index != 1 %}
+            <hr />{% endif %}
             <div class="row pb-5">
               <div class="text-center">
-                <h5 class="text-primary text-gradient" id='{{values["id"]}}' style="scroll-margin-top: 100px;">{{key}}</h5>
+                <h5 class="text-primary text-gradient" id='{{values["id"]}}' style="scroll-margin-top: 100px;">{{key}}
+                </h5>
               </div>
               {% for item in values["Items"] %}
               <div class="col-md-6 col-12">
                 <div class="card shadow my-2 move-on-hover">
                   <div class="row">
-                    <div class="col-2 d-flex flex-wrap align-items-center">
-                      <a href="javascript:;">
+                    <div class="col-2 d-flex flex-wrap ms-auto align-items-center">
+                      <a href="javascript:;" class="stretched-link">
                         <div class="pe-0">
                           <img class="w-100 border-radius-md" src="static/assets/img/Products.png">
                         </div>
                       </a>
                     </div>
-                    <div class="col-10 ps-lg-0">
+                    <div class="col-9 ps-lg-0">
                       <div class="card-body">
                         <h6 class="mb-0 text-dark">{{item}}</h6>
                         <!-- <p class="mb-0">more info about the product</p> -->
@@ -90,5 +93,4 @@
     </div>
   </div>
 </section>
-
 {% endblock %}
