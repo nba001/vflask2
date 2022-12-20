@@ -64,7 +64,7 @@ def contact():
 
 @app.route('/test2')
 def test():
-    return Mail_Recipient
+    return "This is Test"
     # return res
 
 
